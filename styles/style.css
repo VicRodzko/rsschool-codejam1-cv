@@ -56,3 +56,44 @@ nav .container ul li a:hover {
 	color: #00bac6;
 	padding-bottom: 30px;
 }
+
+
+.left-section {
+    width: 400px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.photo {
+    background: url(../images/photo.jpg);
+    background-size: 100% 100%;
+    background-position: 70% 0;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 3px solid gray;
+    margin: 20px auto;
+}
+.skill, .language {
+    color: white;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.skill h2, .language h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+	text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.skill ul li, .language ul li {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.skill ul li progress, .language ul li progress {
+    float: right;
+}
