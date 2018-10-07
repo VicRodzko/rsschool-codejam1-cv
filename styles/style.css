@@ -1,26 +1,28 @@
 body {
   background-image: url(../images/background.jpg);
   background-repeat: repeat-x;
-  background-color: black;
   background-size: 100%;
+  background-color: black;
 }
 
 .container {
-  box-sizing: border-box;
-  width: 1024px;
-  background: rgba(0, 0, 0, 0.5);
-  margin: 30px auto;
   display: flex;
   justify-content: space-between;
-  padding-left: 30px;
+  width: 1024px;
+  margin: 30px auto;
   padding-right: 30px;
+  padding-left: 30px;
+
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .container h1 {
-  font-family: 'Pacifico', cursive;
-  color: #ffffff;
   padding: 16px 0 20px 14px;
+
   font-size: 24px;
+  font-family: "Pacifico", cursive;
+  color: #ffffff;
 }
 
 .container h1 span {
@@ -28,67 +30,73 @@ body {
 }
 
 header .container .socio img {
-  width: 23px;
-  height: 23px;
   padding: 16px 8px 17px 15px;
 }
 
 nav .container ul li a {
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  font-family: "Open Sans", sans-serif;
   color: #8b8b8b;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
 nav .container ul li {
   display: inline-block;
-  padding: 30px 19px 30px 11px;
   margin: 10px 8px 5px 0;
+  padding: 30px 19px 30px 11px;
 }
 
 nav .container ul li a:hover {
-  color: #00bac6;
-  border-bottom: 2px solid #00bac6;
-  color: #00bac6;
   padding-bottom: 30px;
+  
+  color: #00bac6;
+  
+  border-bottom: 2px solid #00bac6;
 }
 
 .left-section {
   width: 350px;
+
   background: rgba(0, 0, 0, 0.7);
 }
+
 .photo {
-  background: url(../images/photo.jpg);
-  background-size: 100% 100%;
-  background-position: 70% 0;
   width: 170px;
   height: 170px;
-  border-radius: 50%;
-  border: 3px solid gray;
   margin: 20px auto;
+
+  background: url(../images/photo.jpg);
+  background-size: 100%;
+  background-position: 70% 0;
+  border: 3px solid gray;
+  border-radius: 50%;
 }
+
 .skill, .language, .contacts {
-  color: white;
-  margin: 10px auto;
   width: 300px;
+  margin: 10px auto;
+
+  color: white;
 }
 
 .skill h2, .language h2, .contacts h2 {
-  font-family: 'Open Sans', sans-serif;
-  color: #ffffff;
-  text-align: center;
+  padding-top: 20px;
+
   font-size: 20px;
   font-weight: bold;
-  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
   text-transform: uppercase;
+  color: #ffffff; 
 }
 
 .skill ul li, .language ul li, contacts ul li {
-  font-family: 'Open Sans', sans-serif;
-  color: #ffffff;
-  font-size: 18px;
   padding-top: 15px;
+  
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
 }
 
 .skill ul li progress, .language ul li progress {
@@ -97,17 +105,19 @@ nav .container ul li a:hover {
 
 .right-section {
   width: 700px;
-  font-family: 'Open Sans', sans-serif;
-  color: #ffffff;
+
   font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
 }
 
-.right-section h1 {
-  text-transform: uppercase;
-  text-align: center;
+.right-section h2 {
   margin: 30px 0;
-  font-weight: bold;
+
   font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .summary {
@@ -116,9 +126,10 @@ nav .container ul li a:hover {
 }
 
 .summary h3 {
-  text-transform: uppercase;
-  text-align: center;
   margin: 20px;
+
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .summary h3:before {
@@ -126,8 +137,9 @@ nav .container ul li a:hover {
   display: inline-block;
   width: 60px;
   height: 1px;
-  margin-bottom: 7px;
   margin-right: 20px;
+  margin-bottom: 7px;
+
   border: 3px solid white;
 }
 
@@ -136,8 +148,9 @@ nav .container ul li a:hover {
   display: inline-block;
   width: 60px;
   height: 1px;
-  margin-left: 20px;
   margin-bottom: 7px;
+  margin-left: 20px;
+
   border: 3px solid white;
 }
 
@@ -146,52 +159,57 @@ nav .container ul li a:hover {
 }
 
 .summary p, .summary ul li {
-  font-size: 18px;
   padding-bottom: 9px;
+  
+  font-size: 18px;
 }
 
 .github {
+  display: inline-block;
   width: 60px;
   height: 60px;
+  margin-right: 70px;
+
   background-image: url(../images/github.svg);
   background-size: 100%;
-  display: inline-block;
-  margin-right: 70px;;
 }
 
 .github:hover {
   width: 66px;
   height: 66px;
-  margin-left: -6px;
   margin-bottom: -6px;
+  margin-left: -6px;
 }
 
 .github a {
   display: block;
-  text-align: center;
   height: 100%;
+
+  text-align: center;
 }
 
 .codewars {
+  display: inline-block;
   width: 60px;
   height: 60px;
+  
   background-image: url(../images/codewars.png);
   background-size: 100%;
-  display: inline-block;
   border-radius: 15px;
 }
 
 .codewars:hover {
   width: 66px;
   height: 66px;
-  margin-left: -6px;
   margin-bottom: -6px;
+  margin-left: -6px;
 }
 
 .codewars a {
   display: block;
-  text-align: center;
   height: 100%;
+  
+  text-align: center;  
 }
 
 .example {
@@ -199,14 +217,13 @@ nav .container ul li a:hover {
 }
 
 .contacts .socio a img {
-  width: 50px;
-  height: 50px;
   margin: 20px 40px;
 }
 
 .contacts .socio {
-  text-align: center;
   padding-bottom: 40px;
+  
+  text-align: center;
 }
 
 .contacts .socio a img:hover {
@@ -217,10 +234,11 @@ nav .container ul li a:hover {
 
 .contacts .socio p {
   display: block;
-  padding-left: 30px;
-  background: url(../images/envelope.svg) no-repeat;
-  background-size: 20px 20px;
   width: 50px; 
   height: 50px;
   margin: 10px 80px;
+  padding-left: 30px;
+  
+  background: url(../images/envelope.svg) no-repeat;
+  background-size: 20px 20px;
 }
